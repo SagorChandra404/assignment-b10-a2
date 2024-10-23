@@ -43,10 +43,23 @@
     right: 40%;
   }
 
-
   .habits_card_container {
     grid-template-columns: repeat(1, 1fr);
     gap: 58px;
-}
+  }
+
+  .run_easily {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+
+  }
+  .runner_img{
+    width: 100%;
+  }
+
+  .run_easily_contant .btn {
+    width: 100%;
+  }
 }
 /* navbar responsive ed*/
