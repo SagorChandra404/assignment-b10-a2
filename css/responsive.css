@@ -52,14 +52,30 @@
     width: 100%;
     flex-direction: column;
     gap: 30px;
-
   }
-  .runner_img{
+  .runner_img {
     width: 100%;
   }
 
   .run_easily_contant .btn {
     width: 100%;
+  }
+  .bmi_calculator_heading {
+    margin: 0 20px;
+  }
+
+  .main_bmi_calculator {
+    flex-direction: column;
+    gap: 42px;
+  }
+
+  .calculator_bmi {
+    /* width: 354px; */
+    width: 100%;
+  }
+
+  .bmi_calculator_container {
+    padding: 0 20px;
   }
 }
 /* navbar responsive ed*/
