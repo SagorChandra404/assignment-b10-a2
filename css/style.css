@@ -14,7 +14,10 @@
 
 /* common css */
 #headBg {
-    background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+  /* background-image: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0) 100%);
+  */
+  background: linear-gradient(0deg, #111 100%, rgba(119, 119, 119, 0) 50%);
+  
 }
 /* navbar css st */
 .nav_container {
@@ -24,6 +27,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 50px;
+  padding: 30px;
 }
 
 .logo_container .logo {
@@ -73,18 +77,17 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .banner_contant {
   width: 50%;
-  border: 2px solid red;
 }
 .banner_hero {
   width: 40%;
-  border: 2px solid saddlebrown;
 }
-.hero_image{
-    max-width: 100%;
-    object-fit: contain;
+.hero_image {
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .banner_title {
@@ -95,14 +98,59 @@
   font-weight: 900;
   line-height: 120%;
 }
+.banner_descprition {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primaryFont);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  padding: 28px 0;
+}
 
 .style_font {
   color: #fff;
-    font-family: var(--styleFont);
+  font-family: var(--styleFont);
   font-size: 78px;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
+}
+
+.btn_container {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 16px 40px;
+  border-radius: 42px;
+  background: #e6533c;
+  border: none;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--primaryFont);
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+
+.btn_2 {
+  padding: 16px 40px;
+  border-radius: 42px;
+  background: transparent;
+  border-radius: 42px;
+  border: 1px solid #fff;
+}
+
+.btn_2 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--primaryFont);
+  font-size: 1.12rem;
+  font-weight: 600;
 }
 
 /* banner_container ed */
