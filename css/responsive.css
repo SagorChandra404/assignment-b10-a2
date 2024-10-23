@@ -1,0 +1,14 @@
+/* navbar responsive st*/
+@media screen and (max-width:576px) {
+    .nav_container{
+        padding:  0px 20px;
+    } 
+    .nav_menu_container{
+        display: none;
+     }
+     .hamburger {
+        display: block;
+       
+      }
+}
+/* navbar responsive ed*/

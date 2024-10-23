@@ -1,15 +1,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parisienne&display=swap");
 
 /* common css */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --primaryFont: Inter;
-    --styleFont: Parisienne;
+:root {
+  --primaryFont: Inter;
+  --styleFont: Parisienne;
 }
 
 /* common css */
+#headBg {
+  background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0) 100%);
+}
+/* navbar css st */
+.nav_container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.logo_container .logo {
+  color: #e6533c;
+  font-family: var(--primaryFont);
+  font-size: 2.25rem;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.menu_items {
+  list-style: none;
+  display: flex;
+}
+
+.nav_menu_container .item {
+  margin-left: 50px;
+}
+
+
+.item a {
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--primaryFont);
+  font-size: 1.12rem;
+  font-weight: 400;
+}
+.item a:hover {
+    border-radius: 46px;
+    background: #e6533c;
+  }
+
+#ham_icon {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* navbar css st */
