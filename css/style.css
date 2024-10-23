@@ -432,8 +432,70 @@ table {
 /* bmi_calculator_container ed*/
 
 /* meet ourTeam st */
-.our_team{
+.team_card_container {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 58px;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+.our_team {
   max-width: 1140px;
-  
+  margin: 0 auto;
+}
+.team_heading {
+  text-align: center;
+}
+
+.our_team_title {
+  color: #fff;
+  font-family: var(--primaryFont);
+  font-size: 3rem;
+  font-weight: 900;
+}
+.our_team_descprition {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primaryFont);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 14px;
+}
+.team_card {
+  width: 350px;
+  height: 350px;
+  border-radius: 18px;
+  position: relative;
+}
+
+.team_card .trainer_img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.trainer {
+  position: absolute;
+  border-radius: 18px;
+  bottom: 20px;
+  left: 20px;
+}
+
+.trainer h3 {
+  color: #fff;
+  font-family: var(--primaryFont);
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.trainer p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primaryFont);
+  font-size: 0.87rem;
+  font-weight: 400;
 }
 /* meet ourTeam ed */
