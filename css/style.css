@@ -221,3 +221,61 @@ body {
 }
 
 /* banner_container ed */
+
+/* Your_Habits st */
+.Your_Habits {
+  max-width: 1140px;
+  margin: 100px auto;
+}
+.habit_head {
+  text-align: center;
+}
+.habit_title {
+}
+.habits_descprition {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primaryFont);
+  font-size: 0.87rem;
+  font-weight: 400;
+  padding-top: 14px;
+}
+
+.habits_card_container {
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.habit_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.habit_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.habit_card_contant {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.habit_title {
+  color: #fff;
+  font-family: var(--primaryFont);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.habit_descprition {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--primaryFont);
+  font-size: 0.87rem;
+  font-weight: 400;
+  padding-top: 8px;
+}
+/* Your_Habits ed*/
