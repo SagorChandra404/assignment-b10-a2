@@ -1,14 +1,46 @@
 /* navbar responsive st*/
-@media screen and (max-width:576px) {
-    .nav_container{
-        padding:  0px 20px;
-    } 
-    .nav_menu_container{
-        display: none;
-     }
-     .hamburger {
-        display: block;
-       
-      }
+@media screen and (max-width: 576px) {
+  .nav_container {
+    margin-top: 20px;
+    padding: 0px 20px;
+  }
+  .nav_menu_container {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  .banner_container {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .banner_contant {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .banner_title {
+    width: 285px;
+    font-size: 2.25rem;
+  }
+  .banner_hero {
+    margin-top: 100px;
+  }
+
+  .hero_image {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .free_video {
+    top: 30%;
+    left: 40%;
+  }
+
+  .tutorial {
+    bottom: 10%;
+    right: 40%;
+  }
 }
 /* navbar responsive ed*/
